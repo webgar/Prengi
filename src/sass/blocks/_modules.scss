@@ -1,0 +1,42 @@
+.modules{
+    padding: 80px 0;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item{
+        position:relative;
+        width: 360px;
+        height: 255px;
+        text-align: center;
+        img{
+            width: 100%;
+        }
+    }
+    &__discr{
+        position: absolute;
+        bottom: 36px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 266px;
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 300;
+        color: #393939;
+        &_black{
+            font-weight: 400;
+        }
+    }
+    &__title-block{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 37px;
+    }
+    &__title{
+        font-size: 48.1px;
+        line-height: 30px;
+        font-weight: 700;
+        color: #393939;
+        margin-top: 33px;
+    }
+}
